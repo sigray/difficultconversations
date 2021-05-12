@@ -1,0 +1,40 @@
+body {
+    background: white;
+    margin: auto;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.comments {
+    margin: 10rem;
+}
+
+.comments p:nth-child(even) {
+    background: lavender;
+}
+
+.comments p:nth-child(odd) {
+    background: gainsboro;
+}
+
+#center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+footer {
+  background: maroon;
+  display: block;
+}
